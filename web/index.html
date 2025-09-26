@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas Felices | Adopción de Mascotas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">Huellitas Felices</div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre nosotros</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#mascotas">Mascotas</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Encuentra a tu mejor amigo peludo</h1>
+            <p>Conectamos corazones con patitas. Adopta, no compres.</p>
+            <a class="btn" href="#mascotas">Ver mascotas disponibles</a>
+        </div>
+    </header>
+
+    <section id="sobre" class="sobre">
+        <div class="contenedor">
+            <div class="texto">
+                <h2>Un hogar para cada patita</h2>
+                <p>Somos una organización dedicada a rescatar, rehabilitar y reubicar mascotas en hogares llenos de amor. Trabajamos con una red de voluntarios, veterinarios y familias temporales que se comprometen a ofrecer el mejor cuidado a cada animalito que rescatamos.</p>
+                <p>Desde 2015 hemos encontrado hogar a más de 1,200 mascotas. Creemos en la adopción responsable y acompañamos a las familias durante todo el proceso.</p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1558944351-c37c058f2f6a?auto=format&fit=crop&w=900&q=80" alt="Pareja feliz con su perro" loading="lazy">
+        </div>
+    </section>
+
+    <section id="proceso" class="proceso">
+        <h2>¿Cómo funciona la adopción?</h2>
+        <div class="pasos">
+            <div class="paso">
+                <span class="numero">1</span>
+                <h3>Conócelos</h3>
+                <p>Explora las fichas de nuestras mascotas y elige con quién te gustaría convivir.</p>
+            </div>
+            <div class="paso">
+                <span class="numero">2</span>
+                <h3>Solicita</h3>
+                <p>Completa una solicitud para que podamos conocer tu estilo de vida y expectativas.</p>
+            </div>
+            <div class="paso">
+                <span class="numero">3</span>
+                <h3>Visita</h3>
+                <p>Realizamos una visita guiada para que convivas con la mascota y evalúes la compatibilidad.</p>
+            </div>
+            <div class="paso">
+                <span class="numero">4</span>
+                <h3>Adopta</h3>
+                <p>Firmamos un convenio de adopción responsable y te brindamos seguimiento.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mascotas" class="mascotas">
+        <div class="encabezado">
+            <h2>Mascotas destacadas</h2>
+            <div class="filtros">
+                <button class="filtro activo" data-filter="todos">Todos</button>
+                <button class="filtro" data-filter="perro">Perros</button>
+                <button class="filtro" data-filter="gato">Gatos</button>
+            </div>
+        </div>
+        <div class="grid-mascotas">
+            <article class="tarjeta" data-category="perro">
+                <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=800&q=80" alt="Perro Labrador" loading="lazy">
+                <div class="info">
+                    <h3>Max</h3>
+                    <p class="etiqueta">Perro • 2 años • Juguetón</p>
+                    <p>Max es un labrador cariñoso que ama los paseos y jugar con pelotas. Ideal para familias activas.</p>
+                    <button class="btn secundario">Quiero conocerlo</button>
+                </div>
+            </article>
+            <article class="tarjeta" data-category="gato">
+                <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=800&q=80" alt="Gato atigrado" loading="lazy">
+                <div class="info">
+                    <h3>Luna</h3>
+                    <p class="etiqueta">Gato • 3 años • Tranquila</p>
+                    <p>Luna disfruta las siestas al sol y las caricias suaves. Busca un hogar tranquilo y pacientes humanos.</p>
+                    <button class="btn secundario">Quiero conocerla</button>
+                </div>
+            </article>
+            <article class="tarjeta" data-category="perro">
+                <img src="https://images.unsplash.com/photo-1601758064223-0c3b31a8eb83?auto=format&fit=crop&w=800&q=80" alt="Perro mediano" loading="lazy">
+                <div class="info">
+                    <h3>Rocky</h3>
+                    <p class="etiqueta">Perro • 5 años • Leal</p>
+                    <p>Rocky es un mestizo noble y educado. Le encanta acompañar a su humano en cualquier aventura.</p>
+                    <button class="btn secundario">Quiero conocerlo</button>
+                </div>
+            </article>
+            <article class="tarjeta" data-category="gato">
+                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=800&q=80" alt="Gato blanco y negro" loading="lazy">
+                <div class="info">
+                    <h3>Mia</h3>
+                    <p class="etiqueta">Gato • 1 año • Curiosa</p>
+                    <p>Mia es una gatita exploradora que disfruta jugar con plumas y convivir con otros felinos.</p>
+                    <button class="btn secundario">Quiero conocerla</button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="contenedor">
+            <h2>¿Listo para cambiar una vida?</h2>
+            <p>Completa nuestra solicitud y un asesor de adopciones te contactará para darte los siguientes pasos.</p>
+            <a class="btn" href="#contacto">Solicitar adopción</a>
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonios">
+        <h2>Familias felices</h2>
+        <div class="carrusel">
+            <figure>
+                <blockquote>“Adoptar a Coco ha sido la mejor decisión. El acompañamiento que recibimos fue impecable.”</blockquote>
+                <figcaption>— Laura &amp; Diego</figcaption>
+            </figure>
+            <figure>
+                <blockquote>“Nos ayudaron a encontrar al compañero perfecto para nuestros hijos. Milo es parte de la familia.”</blockquote>
+                <figcaption>— Familia Hernández</figcaption>
+            </figure>
+            <figure>
+                <blockquote>“El proceso fue muy claro y rápido. Se nota el amor con el que cuidan a cada mascota.”</blockquote>
+                <figcaption>— Andrés</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenedor">
+            <div class="info-contacto">
+                <h2>Contáctanos</h2>
+                <p>Teléfono: <a href="tel:+5215512345678">+52 1 55 1234 5678</a></p>
+                <p>Email: <a href="mailto:adopciones@huellitasfelices.org">adopciones@huellitasfelices.org</a></p>
+                <p>Dirección: Calle Patitas 123, Col. Amor por los Animales, CDMX.</p>
+                <div class="redes">
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="YouTube">YouTube</a>
+                </div>
+            </div>
+            <form class="formulario">
+                <h3>Agenda una visita</h3>
+                <label for="nombre">Nombre completo</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input id="email" name="email" type="email" placeholder="tucorreo@example.com" required>
+
+                <label for="telefono">Teléfono</label>
+                <input id="telefono" name="telefono" type="tel" placeholder="55 0000 0000" required>
+
+                <label for="mascota">Mascota de interés</label>
+                <select id="mascota" name="mascota" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="max">Max</option>
+                    <option value="luna">Luna</option>
+                    <option value="rocky">Rocky</option>
+                    <option value="mia">Mia</option>
+                    <option value="otra">Otra</option>
+                </select>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tu hogar y familia"></textarea>
+
+                <button type="submit" class="btn">Enviar solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Huellitas Felices. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
